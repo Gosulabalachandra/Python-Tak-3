@@ -19,5 +19,5 @@ def fetch_headlines(url):
         print(f"Extracted {len(headlines)} headlines. Saved to headlines.txt")
     except Exception as e:
         print(f"Error: {e}")
-fetch_headlines('https://www.bbc.com/news')
+fetch_headlines('https://www.eenadu.net/')
 
